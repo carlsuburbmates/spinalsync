@@ -1,0 +1,15 @@
+{
+  "slug": "role",
+  "title": "Role of the Primary Nurse",
+  "purpose": "Define primary nursing model, accountability, MDT collaboration, education planning, and discharge coordination.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "bowel",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

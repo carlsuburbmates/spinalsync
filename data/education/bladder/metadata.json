@@ -1,0 +1,15 @@
+{
+  "slug": "bladder",
+  "title": "Bladder Management",
+  "purpose": "Select and support appropriate bladder strategies (CIC/IDC/SPC/reflex voiding), protect renal function, and manage complications.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "skin",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

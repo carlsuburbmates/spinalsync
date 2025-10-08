@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "question": "Which statement is correct in this context?",
+      "options": ["Option A", "Option B", "Option C"],
+      "answerIndex": 1,
+      "explanation": "Brief rationale that reinforces the rule."
+    },
+    {
+      "question": "What is the best timing/action here?",
+      "options": ["X", "Y", "Z"],
+      "answerIndex": 0,
+      "explanation": "Explain the timing/action with one sentence."
+    },
+    {
+      "question": "Which red flag requires escalation?",
+      "options": ["Red flag A", "Red flag B", "Red flag C"],
+      "answerIndex": 2,
+      "explanation": "Name the escalation path or protocol."
+    }
+  ]
+}

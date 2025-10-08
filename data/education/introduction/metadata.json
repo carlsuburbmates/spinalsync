@@ -1,0 +1,15 @@
+{
+  "slug": "introduction",
+  "title": "Introduction to Spinal Cord Injury",
+  "purpose": "Provide baseline SCI anatomy, classification (ISNCSCI/AIS), and functional impacts that inform all downstream care.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "role",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

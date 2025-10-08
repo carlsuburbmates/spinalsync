@@ -1,0 +1,15 @@
+{
+  "slug": "bowel",
+  "title": "Bowel Management",
+  "purpose": "Enable nurses to distinguish reflex vs flaccid patterns, build effective routines, and manage complications.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "bladder",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

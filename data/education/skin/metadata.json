@@ -1,0 +1,15 @@
+{
+  "slug": "skin",
+  "title": "Skin Care (Prevention & Treatment)",
+  "purpose": "Prevent pressure injuries with inspection, positioning, staging literacy, and timely interventions.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "spinal-precautions",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

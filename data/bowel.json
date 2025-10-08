@@ -1,0 +1,41 @@
+{
+  "title": "Bowel Management — Empowering Patient Independence",
+  "description": "Distinguish reflex vs flaccid bowel patterns, educate patients on daily routines and recognise red flags requiring escalation.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Reflex vs Flaccid Bowel",
+      "body": "Reflex bowel follows the gastro‑colic reflex and typically requires daily or second daily evacuation. Flaccid bowel lacks reflex activity and usually requires twice daily manual evacuation and aperient use."
+    },
+    {
+      "type": "quiz",
+      "question": "Which aperient would you discuss for soft stool maintenance?",
+      "options": ["Coloxyl/Senna", "Paracetamol", "Ibuprofen"],
+      "answerIndex": 0,
+      "explanation": "Coloxyl/Senna combines a stool softener with a stimulant, making it suitable for neurogenic bowel regimes."
+    },
+    {
+      "type": "scenario",
+      "prompt": "Alex reports no bowel motion for three days, increased spasm and headache.",
+      "options": [
+        {
+          "text": "Administer an aperient and monitor",
+          "result": "This treats constipation but does not address potential autonomic dysreflexia."
+        },
+        {
+          "text": "Stop bowel care, check blood pressure and suspect autonomic dysreflexia",
+          "result": "Correct — autonomic dysreflexia is a medical emergency. Follow the AD protocol and alert your team."
+        },
+        {
+          "text": "Encourage fluids only",
+          "result": "Fluids support bowel health but won’t resolve possible reflex complications."
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think about your last bowel management teaching session. What made it effective — clear demonstration, empathy or repetition? Jot down your thoughts."
+    }
+  ]
+}

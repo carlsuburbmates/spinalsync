@@ -1,0 +1,15 @@
+{
+  "slug": "spinal-precautions",
+  "title": "Mobility & Positioning (Spinal Precautions)",
+  "purpose": "Maintain neutral spine and safe handling with correct turns, equipment, and team cues.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "complications",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

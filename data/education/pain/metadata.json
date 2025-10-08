@@ -1,0 +1,15 @@
+{
+  "slug": "pain",
+  "title": "Pain Management",
+  "purpose": "Differentiate nociceptive vs neuropathic pain and apply pharmacologic and non-pharmacologic strategies.",
+  "goals": [
+    "State the key concepts for this module in plain language.",
+    "Apply the protocol in a bedside scenario.",
+    "Identify red flags and escalation steps."
+  ],
+  "next": "nutrition",
+  "crossLinks": [
+    {"title":"Quick-Ref","href":"/quick-ref"},
+    {"title":"Resources","href":"/resources"}
+  ]
+}

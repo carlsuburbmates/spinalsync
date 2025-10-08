@@ -1,0 +1,13 @@
+{
+  "prompt": "You are on shift and face a typical issue related to this module. What is your first best action?",
+  "options": [
+    {"text":"Action A","result":"Not ideal. Risk remains; reassess with protocol."},
+    {"text":"Action B","result":"Correct first move. Proceed to confirm and document."},
+    {"text":"Action C","result":"Delays care; consider escalation thresholds."}
+  ],
+  "correctIndex": 1,
+  "refs": [
+    {"label":"Quick-Ref sheet","href":"/quick-ref"},
+    {"label":"Escalation policy","href":"/resources"}
+  ]
+}
