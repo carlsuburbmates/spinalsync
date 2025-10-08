@@ -1,0 +1,70 @@
+{
+  "modules": [
+    {
+      "slug": "bowel",
+      "title": "Bowel Management",
+      "description": "Learn about bowel management for spinal cord injury rehabilitation.",
+      "icon": "toilet"
+    },
+    {
+      "slug": "bladder",
+      "title": "Bladder Management",
+      "description": "Understand bladder care and continence strategies.",
+      "icon": "droplet"
+    },
+    {
+      "slug": "skin",
+      "title": "Skin Care & Pressure Injury Prevention",
+      "description": "Explore skin integrity and pressure injury prevention techniques.",
+      "icon": "layers"
+    },
+    {
+      "slug": "mobility",
+      "title": "Mobility & Transfers",
+      "description": "Master safe mobility and transfer skills.",
+      "icon": "move"
+    },
+    {
+      "slug": "sexuality",
+      "title": "Sexuality & Relationships",
+      "description": "Discuss sexuality and relationship changes after SCI.",
+      "icon": "heart"
+    },
+    {
+      "slug": "pain",
+      "title": "Pain Management",
+      "description": "Learn pain management strategies for SCI.",
+      "icon": "activity"
+    },
+    {
+      "slug": "autonomic",
+      "title": "Autonomic Dysreflexia",
+      "description": "Identify and manage autonomic dysreflexia.",
+      "icon": "alert-triangle"
+    },
+    {
+      "slug": "spasticity",
+      "title": "Spasticity & Tone",
+      "description": "Understand spasticity and tone management.",
+      "icon": "zap"
+    },
+    {
+      "slug": "respiratory",
+      "title": "Respiratory Care",
+      "description": "Review respiratory care for SCI patients.",
+      "icon": "wind"
+    },
+    {
+      "slug": "psychosocial",
+      "title": "Psychosocial Wellbeing",
+      "description": "Support psychosocial wellbeing after SCI.",
+      "icon": "smile"
+    },
+    {
+      "slug": "nutrition",
+      "title": "Nutrition & Hydration",
+      "description": "Promote nutrition and hydration for rehabilitation.",
+      "icon": "coffee"
+    }
+  ]
+}
