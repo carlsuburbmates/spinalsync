@@ -1,13 +1,57 @@
 [
-  {"slug":"introduction","title":"Introduction to Spinal Cord Injury","summary":"Foundational SCI anatomy, classification, and functional implications."},
-  {"slug":"role","title":"Role of the Primary Nurse","summary":"Primary nursing model, responsibilities, collaboration, discharge planning."},
-  {"slug":"bowel","title":"Bowel Management","summary":"Neurogenic bowel patterns, routines, meds, troubleshooting, AD risk."},
-  {"slug":"bladder","title":"Bladder Management","summary":"Neurogenic bladder types, CIC/IDC/SPC, meds, renal protection."},
-  {"slug":"skin","title":"Skin Care (Prevention & Treatment)","summary":"Pressure injury risk, inspection, staging, prevention, treatment."},
-  {"slug":"spinal-precautions","title":"Mobility & Positioning (Spinal Precautions)","summary":"Safe handling, neutral spine, turns, equipment, caregiver cues."},
-  {"slug":"complications","title":"SCI Complications (Cardiovascular & Systemic)","summary":"AD, OH, DVT/PE, thermoregulation, HO, spasticity, syrinx."},
-  {"slug":"respiratory","title":"Respiratory Management","summary":"Ventilation support, assisted cough, secretion management, prevention."},
-  {"slug":"sexual-health","title":"Sexual Health","summary":"Communication, function changes, fertility, devices, referrals."},
-  {"slug":"pain","title":"Pain Management","summary":"Neuropathic vs nociceptive, meds, non-pharm, MDT strategies."},
-  {"slug":"nutrition","title":"Nutrition","summary":"Macronutrients, micronutrients for healing, fiber, hydration, weight."}
+  {
+    "slug": "introduction",
+    "title": "Introduction to Spinal Cord Injury",
+    "summary": "Foundational SCI anatomy, classification, and functional implications."
+  },
+  {
+    "slug": "role",
+    "title": "Role of the Primary Nurse",
+    "summary": "Primary nursing model, responsibilities, collaboration, discharge planning."
+  },
+  {
+    "slug": "bowel",
+    "title": "Bowel Management",
+    "summary": "Neurogenic bowel patterns, routines, meds, troubleshooting, AD risk."
+  },
+  {
+    "slug": "bladder",
+    "title": "Bladder Management",
+    "summary": "Neurogenic bladder types, CIC/IDC/SPC, meds, renal protection."
+  },
+  {
+    "slug": "skin",
+    "title": "Skin Care (Prevention & Treatment)",
+    "summary": "Pressure injury risk, inspection, staging, prevention, treatment."
+  },
+  {
+    "slug": "spinal-precautions",
+    "title": "Mobility & Positioning (Spinal Precautions)",
+    "summary": "Safe handling, neutral spine, turns, equipment, caregiver cues."
+  },
+  {
+    "slug": "complications",
+    "title": "SCI Complications (Cardiovascular & Systemic)",
+    "summary": "AD, OH, DVT/PE, thermoregulation, HO, spasticity, syrinx."
+  },
+  {
+    "slug": "respiratory",
+    "title": "Respiratory Management",
+    "summary": "Ventilation support, assisted cough, secretion management, prevention."
+  },
+  {
+    "slug": "sexual-health",
+    "title": "Sexual Health",
+    "summary": "Communication, function changes, fertility, devices, referrals."
+  },
+  {
+    "slug": "pain",
+    "title": "Pain Management",
+    "summary": "Neuropathic vs nociceptive, meds, non-pharm, MDT strategies."
+  },
+  {
+    "slug": "nutrition",
+    "title": "Nutrition",
+    "summary": "Macronutrients, micronutrients for healing, fiber, hydration, weight."
+  }
 ]
