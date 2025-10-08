@@ -9,7 +9,7 @@
   ],
   "next": "bowel",
   "crossLinks": [
-    {"title":"Quick-Ref","href":"/quick-ref"},
-    {"title":"Resources","href":"/resources"}
+    { "title": "Quick-Ref", "href": "/quick-ref" },
+    { "title": "Resources", "href": "/resources" }
   ]
 }

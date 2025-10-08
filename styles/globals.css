@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=DM+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=DM+Sans:wght@600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +9,12 @@ body {
   @apply font-sans text-base leading-relaxed text-base-900 bg-base-50;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @apply font-heading;
 }
 

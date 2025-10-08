@@ -3,22 +3,22 @@
     {
       "title": "Before",
       "items": [
-        {"text":"Confirm patient identity and consent","done":false},
-        {"text":"Review recent notes and vitals","done":false}
+        { "text": "Confirm patient identity and consent", "done": false },
+        { "text": "Review recent notes and vitals", "done": false }
       ]
     },
     {
       "title": "During",
       "items": [
-        {"text":"Follow protocol steps in order","done":false},
-        {"text":"Teach-back key point","done":false}
+        { "text": "Follow protocol steps in order", "done": false },
+        { "text": "Teach-back key point", "done": false }
       ]
     },
     {
       "title": "After",
       "items": [
-        {"text":"Document outcomes and variances","done":false},
-        {"text":"Flag red flags and escalate if present","done":false}
+        { "text": "Document outcomes and variances", "done": false },
+        { "text": "Flag red flags and escalate if present", "done": false }
       ]
     }
   ]

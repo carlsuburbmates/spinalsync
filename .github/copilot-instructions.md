@@ -1,9 +1,11 @@
 # Copilot Instructions for SpinalSync
 
 ## Project Overview
+
 SpinalSync is a Next.js app designed for mobile-first clinical education. It transforms static content into interactive modules for nurses in spinal rehabilitation. The app is scaffolded with one populated module (Bowel Management) as an example; new modules should follow its pattern.
 
 ## Architecture & Key Patterns
+
 - **App Directory Structure**: Uses Next.js `app/` routing. Main routes:
   - `app/page.tsx`: Home page
   - `app/education/page.tsx`: Module listing
@@ -13,6 +15,7 @@ SpinalSync is a Next.js app designed for mobile-first clinical education. It tra
 - **Design System**: Tailwind CSS tokens (colors, typography, spacing) are defined in `tailwind.config.js` and used throughout components for visual consistency.
 
 ## Developer Workflows
+
 - **Install & Run**:
   - `pnpm install` to install dependencies
   - `pnpm dev` to start the development server
@@ -27,16 +30,19 @@ SpinalSync is a Next.js app designed for mobile-first clinical education. It tra
   - Avoid custom CSS unless necessary; prefer updating design tokens for global changes
 
 ## Conventions & Patterns
+
 - **Content Structure**: All education content is JSON-based for easy updates and dynamic rendering
 - **Component Usage**: UI logic is encapsulated in components; avoid duplicating UI logic in pages
 - **Routing**: Dynamic routing for modules is handled via `[slug]` in Next.js app directory
 - **Extensibility**: New modules and components should follow the established patterns for consistency
 
 ## Integration Points
+
 - **No external API calls**: All data is local JSON; integration with external services is not present in the scaffold
 - **Tailwind & PostCSS**: Styling is managed via Tailwind and PostCSS config files
 
 ## Key Files & Directories
+
 - `app/` — Next.js routes and layouts
 - `components/` — UI building blocks
 - `data/` — JSON content for modules
@@ -44,6 +50,7 @@ SpinalSync is a Next.js app designed for mobile-first clinical education. It tra
 - `README.md` — Project overview and setup
 
 ## Example: Adding a New Module
+
 1. Create `data/yourmodule.json` with the same structure as `bowel.json`
 2. Add an entry to `data/modules.json`
 3. The new module will be available at `/education/yourmodule`

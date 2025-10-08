@@ -1,18 +1,18 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 interface ReflectionPromptProps {
   prompt: string;
 }
 
 export default function ReflectionPrompt({ prompt }: ReflectionPromptProps) {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
   return (
     <motion.section
       className="mb-4 p-4 rounded-xl shadow-card bg-white"
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.2, ease: 'easeOut' }}
+      transition={{ duration: 0.2, ease: "easeOut" }}
     >
       <h2 className="text-lg font-semibold mb-2 text-base-900">Reflection</h2>
       <p className="text-sm text-base-700 mb-2">{prompt}</p>

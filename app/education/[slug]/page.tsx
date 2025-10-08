@@ -1,10 +1,10 @@
-import { notFound } from 'next/navigation';
-import LearnCard from '../../../components/LearnCard';
-import QuizBlock from '../../../components/QuizBlock';
-import ScenarioPanel from '../../../components/ScenarioPanel';
-import ReflectionPrompt from '../../../components/ReflectionPrompt';
+import { notFound } from "next/navigation";
+import LearnCard from "../../../components/LearnCard";
+import QuizBlock from "../../../components/QuizBlock";
+import ScenarioPanel from "../../../components/ScenarioPanel";
+import ReflectionPrompt from "../../../components/ReflectionPrompt";
 
-import bowel from '../../../data/bowel.json';
+import bowel from "../../../data/bowel.json";
 
 const modules: Record<string, any> = {
   bowel,
@@ -28,9 +28,11 @@ export default function ModulePage({ params }: ModulePageProps) {
       <h1 className="text-2xl font-semibold mb-4 text-base-900">{mod.title}</h1>
       {mod.screens.map((screen: any, idx: number) => {
         switch (screen.type) {
-          case 'learn':
-            return <LearnCard key={idx} title={screen.title} body={screen.body} />;
-          case 'quiz':
+          case "learn":
+            return (
+              <LearnCard key={idx} title={screen.title} body={screen.body} />
+            );
+          case "quiz":
             return (
               <QuizBlock
                 key={idx}
@@ -40,7 +42,7 @@ export default function ModulePage({ params }: ModulePageProps) {
                 explanation={screen.explanation}
               />
             );
-          case 'scenario':
+          case "scenario":
             return (
               <ScenarioPanel
                 key={idx}
@@ -49,7 +51,7 @@ export default function ModulePage({ params }: ModulePageProps) {
                 correctIndex={screen.correctIndex}
               />
             );
-          case 'reflect':
+          case "reflect":
             return <ReflectionPrompt key={idx} prompt={screen.prompt} />;
           default:
             return null;

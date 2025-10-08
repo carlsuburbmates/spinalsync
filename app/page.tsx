@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,7 +6,8 @@ export default function Home() {
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold">Welcome to SpinalSync</h1>
         <p className="text-base text-base-700">
-          An interactive learning companion for primary nurses in spinal rehabilitation.
+          An interactive learning companion for primary nurses in spinal
+          rehabilitation.
         </p>
       </header>
       <section className="flex flex-col gap-4">
