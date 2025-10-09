@@ -1,0 +1,39 @@
+{
+  "title": "Role of the Primary Nurse — Leadership & Collaboration",
+  "description": "Understand the primary nursing model, responsibilities, and discharge planning. Practice scenario-based learning and checklists.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Primary Nursing Model",
+      "body": "Primary nurses manage entire episodes of care, ensuring continuity and quality for spinal rehabilitation patients."
+    },
+    {
+      "type": "flashcard",
+      "front": "Key Responsibility: Discharge Planning",
+      "back": "Primary nurses coordinate multidisciplinary teams and resources for safe, timely discharge."
+    },
+    {
+      "type": "scenario",
+      "prompt": "You are planning discharge for a patient with complex needs. What is your first step?",
+      "options": [
+        {"text": "Review patient goals and needs", "result": "Correct — understanding goals is essential for planning."},
+        {"text": "Schedule team meeting", "result": "Team meetings are important but should follow goal review."},
+        {"text": "Order equipment immediately", "result": "Equipment orders should be based on assessed needs."}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Review patient goals",
+        "Coordinate with MDT",
+        "Plan discharge timeline",
+        "Arrange equipment and referrals"
+      ]
+    },
+    {
+      "type": "reflect",
+      "prompt": "How do you collaborate with other team members to achieve safe discharge?"
+    }
+  ]
+}

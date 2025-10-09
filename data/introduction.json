@@ -1,0 +1,27 @@
+{
+  "title": "Introduction to Spinal Cord Injury — Foundation",
+  "description": "Learn SCI anatomy, classification, and functional implications. Practice with interactive visuals and quizzes.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "SCI Anatomy Overview",
+      "body": "Spinal cord injuries affect motor, sensory, and autonomic function below the level of injury."
+    },
+    {
+      "type": "visual-card",
+      "prompt": "Tap to explore the ASIA scale and lesion levels.",
+      "items": ["Cervical", "Thoracic", "Lumbar", "Sacral"]
+    },
+    {
+      "type": "quiz",
+      "question": "Which lesion level is most likely to affect respiratory function?",
+      "options": ["Cervical", "Thoracic", "Lumbar", "Sacral"],
+      "answerIndex": 0,
+      "explanation": "Cervical injuries can impair diaphragm function and breathing."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Reflect on how SCI anatomy impacts patient care in your experience."
+    }
+  ]
+}

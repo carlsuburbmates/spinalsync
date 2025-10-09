@@ -1,0 +1,34 @@
+{
+  "title": "Pain Management — Clinical Reasoning & Empathy",
+  "description": "Distinguish neuropathic vs nociceptive pain, select appropriate interventions, and reflect on management strategies.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Types of Pain in SCI",
+      "body": "Neuropathic pain arises from nerve injury; nociceptive pain is due to tissue damage."
+    },
+    {
+      "type": "decision-tree",
+      "prompt": "Select the best intervention for neuropathic pain.",
+      "options": [
+        "Gabapentin",
+        "Paracetamol",
+        "Physical therapy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "case-study",
+      "prompt": "Patient reports burning pain below level of injury. What is your approach?",
+      "steps": [
+        "Assess pain characteristics",
+        "Review medication history",
+        "Consider neuropathic agents"
+      ]
+    },
+    {
+      "type": "reflect",
+      "prompt": "How do you support patients experiencing chronic pain?"
+    }
+  ]
+}

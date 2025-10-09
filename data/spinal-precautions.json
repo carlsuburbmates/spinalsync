@@ -1,0 +1,40 @@
+{
+  "title": "Mobility & Positioning — Spinal Precautions",
+  "description": "Master safe handling, neutral spine, and equipment use. Practice team roles and checklist routines.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Neutral Spine Principle",
+      "body": "Always maintain spinal alignment during transfers and turns."
+    },
+    {
+      "type": "scenario",
+      "prompt": "You are leading a log-roll for a patient with spinal precautions. What is your first step?",
+      "options": [
+        {"text": "Position team and explain roles", "result": "Correct — clear communication and role assignment are essential."},
+        {"text": "Begin the turn immediately", "result": "Unsafe — always prepare and communicate first."},
+        {"text": "Ask patient to assist", "result": "Patients may not be able to assist safely."}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Confirm team roles",
+        "Explain procedure to patient",
+        "Maintain neutral spine",
+        "Use appropriate equipment"
+      ]
+    },
+    {
+      "type": "drag-and-drop",
+      "prompt": "Assign each team member to their role in the transfer.",
+      "roles": ["Leader", "Spine Support", "Legs", "Equipment"],
+      "positions": ["Head of bed", "Side of bed", "Foot of bed", "Equipment station"]
+    },
+    {
+      "type": "reflect",
+      "prompt": "Think about a challenging transfer. What made it successful or risky?"
+    }
+  ]
+}

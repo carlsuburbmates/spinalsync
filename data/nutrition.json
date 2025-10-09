@@ -1,0 +1,36 @@
+{
+  "title": "Nutrition — Healing & Hydration",
+  "description": "Understand macronutrients, micronutrients, fiber, hydration, and weight management. Practice building healthy plates and matching nutrients to healing roles.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Macronutrients & Micronutrients",
+      "body": "Protein, carbs, and fats are essential for healing. Vitamins and minerals support immune function and tissue repair."
+    },
+    {
+      "type": "quiz",
+      "question": "Which nutrient is most important for wound healing?",
+      "options": ["Protein", "Carbohydrate", "Fat", "Vitamin C"],
+      "answerIndex": 0,
+      "explanation": "Protein is critical for tissue repair and wound healing."
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Include protein in every meal",
+        "Stay hydrated (6–8 cups/day)",
+        "Eat fiber-rich foods",
+        "Monitor weight regularly"
+      ]
+    },
+    {
+      "type": "visual-card",
+      "prompt": "Tap to build a healthy SCI plate.",
+      "items": ["Protein", "Vegetables", "Whole grains", "Fruit", "Healthy fats"]
+    },
+    {
+      "type": "reflect",
+      "prompt": "How do you encourage patients to improve their nutrition habits?"
+    }
+  ]
+}

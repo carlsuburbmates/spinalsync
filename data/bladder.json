@@ -1,0 +1,46 @@
+{
+  "title": "Bladder Management — Protecting Renal Health",
+  "description": "Understand neurogenic bladder types, catheterization options, and renal protection strategies. Practice troubleshooting and escalation.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Neurogenic Bladder Types",
+      "body": "Neurogenic bladder can be reflex (spastic) or flaccid. Reflex bladder often requires intermittent catheterization, while flaccid bladder may need indwelling or suprapubic catheterization."
+    },
+    {
+      "type": "flashcard",
+      "front": "CIC (Clean Intermittent Catheterization)",
+      "back": "Preferred for reflex bladder. Reduces infection risk and preserves renal function."
+    },
+    {
+      "type": "quiz",
+      "question": "Which catheter type is best for long-term flaccid bladder management?",
+      "options": ["IDC (Indwelling)", "CIC", "SPC (Suprapubic)", "External Condom Catheter"],
+      "answerIndex": 2,
+      "explanation": "SPC is often preferred for long-term flaccid bladder management due to lower infection risk and easier care."
+    },
+    {
+      "type": "scenario",
+      "prompt": "Jamie presents with fever and cloudy urine after 2 weeks of IDC use.",
+      "options": [
+        {"text": "Continue IDC and monitor", "result": "Risk of infection increases. Consider alternatives."},
+        {"text": "Switch to CIC and educate on technique", "result": "CIC may reduce infection risk if feasible."},
+        {"text": "Consult for SPC placement", "result": "Correct — SPC may be indicated for recurrent infections."}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Hand hygiene before catheter care",
+        "Daily fluid intake > 2L",
+        "Monitor for signs of UTI",
+        "Regular catheter change schedule"
+      ]
+    },
+    {
+      "type": "reflect",
+      "prompt": "Reflect on a time you educated a patient about bladder care. What strategies helped them understand and engage?"
+    }
+  ]
+}

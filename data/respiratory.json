@@ -1,0 +1,36 @@
+{
+  "title": "Respiratory Management — Supporting Ventilation",
+  "description": "Learn assisted cough, secretion management, and prevention strategies. Practice skill demos and safety quizzes.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Assisted Cough Technique",
+      "body": "Support the patient’s abdomen during exhalation to help clear secretions."
+    },
+    {
+      "type": "quiz",
+      "question": "Which device is used for secretion management in SCI patients?",
+      "options": ["Nebulizer", "Suction machine", "Oxygen concentrator", "CPAP"],
+      "answerIndex": 1,
+      "explanation": "Suction machines are commonly used for secretion management."
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Assess cough strength",
+        "Prepare suction equipment",
+        "Monitor oxygen saturation",
+        "Educate patient on prevention"
+      ]
+    },
+    {
+      "type": "flashcard",
+      "front": "Prevention of Respiratory Complications",
+      "back": "Regular chest physiotherapy and hydration reduce risk."
+    },
+    {
+      "type": "reflect",
+      "prompt": "How do you teach patients to manage secretions at home?"
+    }
+  ]
+}

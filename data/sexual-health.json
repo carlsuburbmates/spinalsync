@@ -1,0 +1,30 @@
+{
+  "title": "Sexual Health — Communication & Function",
+  "description": "Explore changes in sexual function, communication strategies, and referral resources. Practice dialogue simulation and reflection.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Changes in Sexual Function",
+      "body": "SCI can affect arousal, sensation, fertility, and sexual response. Open communication is key."
+    },
+    {
+      "type": "dialogue-sim",
+      "prompt": "Choose the best way to start a sensitive conversation about sexual health.",
+      "options": [
+        "Ask directly about sexual concerns",
+        "Wait for patient to bring it up",
+        "Use open-ended questions about relationships"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "type": "flashcard",
+      "front": "Fertility Changes",
+      "back": "SCI may affect fertility in men and women. Referral to specialists is recommended."
+    },
+    {
+      "type": "reflect",
+      "prompt": "Reflect on a time you discussed sexual health with a patient. What made the conversation effective?"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "SCI Complications — Cardiovascular & Systemic",
+  "description": "Recognize and respond to AD, OH, DVT/PE, and other complications. Practice crisis simulation and flashcards.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Autonomic Dysreflexia (AD)",
+      "body": "AD is a medical emergency. Symptoms include headache, hypertension, sweating above lesion, and bradycardia."
+    },
+    {
+      "type": "flashcard",
+      "front": "Orthostatic Hypotension (OH)",
+      "back": "Sudden drop in blood pressure upon standing. Manage with gradual position changes and compression stockings."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the first step in managing suspected AD?",
+      "options": ["Call for help", "Sit patient upright", "Administer antihypertensive", "Check for noxious stimulus"],
+      "answerIndex": 1,
+      "explanation": "Sit the patient upright to lower blood pressure, then check for noxious stimulus."
+    },
+    {
+      "type": "scenario",
+      "prompt": "Patient with SCI reports pounding headache and high BP after bowel care.",
+      "options": [
+        {"text": "Continue bowel care", "result": "Unsafe — stop and address AD immediately."},
+        {"text": "Sit patient upright and check for triggers", "result": "Correct — this is the first step in AD management."},
+        {"text": "Give pain medication", "result": "Pain relief does not address AD."}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "reflect",
+      "prompt": "Recall a time you managed a complication. What did you learn?"
+    }
+  ]
+}

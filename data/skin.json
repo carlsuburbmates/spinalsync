@@ -1,0 +1,41 @@
+{
+  "title": "Skin Care — Preventing Pressure Injuries",
+  "description": "Learn to assess, prevent, and treat pressure injuries. Practice daily skin checks and staging quizzes.",
+  "screens": [
+    {
+      "type": "learn",
+      "title": "Pressure Injury Risk Factors",
+      "body": "Immobility, moisture, poor nutrition, and reduced sensation increase risk."
+    },
+    {
+      "type": "visual-assessment",
+      "image": "skin-risk-areas.png",
+      "prompt": "Tap the areas most at risk for pressure injuries."
+    },
+    {
+      "type": "quiz",
+      "question": "Which stage of pressure injury involves full-thickness skin loss?",
+      "options": ["Stage 1", "Stage 2", "Stage 3", "Stage 4"],
+      "answerIndex": 2,
+      "explanation": "Stage 3 involves full-thickness skin loss, possibly exposing fat but not bone."
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Daily skin inspection",
+        "Pressure relief every 2 hours",
+        "Use of support surfaces",
+        "Maintain skin hygiene"
+      ]
+    },
+    {
+      "type": "flashcard",
+      "front": "Stage 1 Pressure Injury",
+      "back": "Non-blanchable erythema of intact skin."
+    },
+    {
+      "type": "reflect",
+      "prompt": "How do you ensure patients perform daily skin checks? What barriers exist?"
+    }
+  ]
+}

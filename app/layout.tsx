@@ -1,4 +1,5 @@
 
+import React from "react";
 import "../styles/globals.css";
 import type { ReactNode } from "react";
 
@@ -55,7 +56,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="min-h-screen bg-base-50 text-base-900 focus:outline-none focus:ring-2 focus:ring-primary">
         <TopBar />
-        <main className="pt-4 pb-20 px-4 max-w-3xl mx-auto w-full">{children}</main>
+        {/* Accessibility: Skip to main content link */}
+        <a href="#main-content" className="sr-only focus:not-sr-only absolute top-2 left-2 bg-primary text-white px-4 py-2 rounded z-50">Skip to main content</a>
+        <main className="pt-4 pb-20 px-4 max-w-3xl mx-auto w-full" id="main-content" tabIndex={-1}>{children}</main>
         <BottomNav />
       </body>
     </html>
